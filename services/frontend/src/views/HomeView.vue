@@ -6,9 +6,6 @@
       <p id="logout">Click <a href="/dashboard">here</a> to view all employees.</p>
     </div>
     <p v-else>
-      <div @click="c">
-        hersd
-      </div>
       <span><a href="/login">Log In</a></span>
     </p>
   </section>
@@ -24,10 +21,5 @@ export default defineComponent({
       return this.$store.getters.isAuthenticated;
     }
   },
-  methods: {
-    c() {
-      console.log(this.$store.getters.stateUser)
-    }
-  }
 });
 </script>
