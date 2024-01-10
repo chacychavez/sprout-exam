@@ -47,4 +47,4 @@ $ docker-compose exec web-db psql -U postgres
 
 ## Frontend
 
-- Go to https://localhost:8080
+- Go to http://localhost:8080/
